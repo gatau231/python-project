@@ -5,8 +5,6 @@ Date : 23/01/2022
 '''
 
 import os
-import telebot
-from dotenv import load_dotenv
 
 # load API_KEY from .env
 # put your API_KEY in ".env" file
