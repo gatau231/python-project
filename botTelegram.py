@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 
 # load API_KEY from .env
 # put your API_KEY in ".env" file
-# API_KEY=<token>
+# API_KEY=<26689028>
 load_dotenv()
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("26689028")
 
 # make a connection to bot
-bot = telebot.TeleBot(API_KEY)
+bot = telebot.TeleBot(26689028)
 
 # start and help command
 @bot.message_handler(commands=['start','help'])
